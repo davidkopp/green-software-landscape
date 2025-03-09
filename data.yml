@@ -1,3 +1,5 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/cncf/landscape2/refs/heads/main/docs/config/schema/data.schema.json
+
 # Landscape2 data
 #
 # This file contains the data that will be used to generate the landscape.
@@ -5,77 +7,30 @@
 # Reference documentation: https://github.com/cncf/landscape2/blob/main/docs/config/data.yml
 
 categories:
-  - name: Category 1
+  - name: Messen
     subcategories:
-      - name: Subcategory 1-1
-        items:
-          - name: Item 1
-            crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
-            description: This is the description of item 1
-            homepage_url: https://cncf.io
-            logo: cncf.svg
-            project: graduated
-            repo_url: https://github.com/cncf/landscape2
-            twitter: https://twitter.com/CloudNativeFdn
-          - name: Item 2
-            crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
-            description: This is the description of item 2
-            homepage_url: https://cncf.io
-            logo: cncf.svg
-            project: sandbox
-            repo_url: https://github.com/cncf/landscape2
-            twitter: https://twitter.com/CloudNativeFdn
-          - name: Item 3
-            description: This is the description of item 3
-            homepage_url: https://cncf.io
-            logo: cncf.svg
-      - name: Subcategory 1-2
-        items:
-          - name: Item 4
-            crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
-            description: This is the description of item 4
-            homepage_url: https://cncf.io
-            logo: cncf.svg
-            repo_url: https://github.com/cncf/landscape2
-            twitter: https://twitter.com/CloudNativeFdn
-          - name: Item 5
-            crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
-            description: This is the description of item 5
-            homepage_url: https://cncf.io
-            logo: cncf.svg
-            repo_url: https://github.com/cncf/landscape2
-  - name: Category 2
-    subcategories:
-      - name: Subcategory 2-1
-        items:
-          - name: Item 6
-            crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
-            description: This is the description of item 6
-            homepage_url: https://cncf.io
-            logo: cncf.svg
-            project: graduated
-            repo_url: https://github.com/cncf/landscape2
-            twitter: https://twitter.com/CloudNativeFdn
-          - name: Item 7
-            crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
-            description: This is the description of item 7
-            homepage_url: https://cncf.io
-            logo: cncf.svg
-            project: sandbox
-            repo_url: https://github.com/cncf/landscape2
-            twitter: https://twitter.com/CloudNativeFdn
-          - name: Item 8
-            description: This is the description of item 8
-            homepage_url: https://cncf.io
-            logo: cncf.svg
-      - name: Subcategory 2-2
+      - name: Kubernetes
         items:
           - item:
-            crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
-            description: This is the description of item 9
-            homepage_url: https://cncf.io
-            logo: cncf.svg
-            name: Item 9
-            repo_url: https://github.com/cncf/landscape2
-            twitter: https://twitter.com/CloudNativeFdn
-
+            name: Kepler
+            description: Kepler (Kubernetes-based Efficient Power Level Exporter) verwendet eBPF, um energiebezogene Systemstatistiken zu untersuchen und als Prometheus-Metriken zu exportieren.
+            homepage_url: https://sustainable-computing.io/
+            repo_url: https://github.com/sustainable-computing-io/kepler
+            logo: kepler.svg
+            # crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+            extra:
+              # dev_stats_url: https://kepler.devstats.cncf.io/
+              summary_personas: Developers, SREs, Sustainability Officers, IT Managers
+              summary_tags: sustainability, power monitoring, observability, metrics, ebpf, machine learning
+              summary_use_case: Ermöglichung der Überwachung der Leistungsaufnahme von Workloads von Cloud-native Systemen.
+              summary_integrations: Kubernetes, Prometheus.
+              # clomonitor_name: kepler
+      - name: Komponente
+        items:
+          - item:
+            name: Green Metrics Tool
+            description: The Green Metrics Tool is a free open-source (FOSS) tool to measure the energy / CO2 consumption of container-based software applications.
+            homepage_url: https://www.green-coding.io/products/green-metrics-tool/
+            docs: https://docs.green-coding.io
+            repo_url: https://github.com/green-coding-solutions/green-metrics-tool
+            logo: green-metrics-tool.webp

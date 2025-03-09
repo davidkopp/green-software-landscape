@@ -1,58 +1,57 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/cncf/landscape2/refs/heads/main/docs/config/schema/settings.schema.json
+
 # Landscape2 settings
 #
 # This settings file allows customizing some aspects of the landscape.
 #
 # Reference documentation: https://github.com/cncf/landscape2/blob/main/docs/config/settings.yml
 
-foundation: DEMO
+foundation: Bundesverband Green Software
 
-url: http://127.0.0.1:8000
+url: http://127.0.0.1:8000 # TODO
 
 colors:
-  color1: "rgba(0, 107, 204, 1)"
-  color2: "rgba(255, 0, 170, 1)"
-  color3: "rgba(96, 149, 214, 1)"
-  color4: "rgba(0, 42, 81, 0.7)"
-  color5: "rgba(1, 107, 204, 0.7)"
-  color6: "rgba(0, 42, 81, 0.7)"
-  color7: "rgba(180, 219, 255, 1)"
+  color1: "rgba(37, 58, 1, 1)" # Buttons, groups, links
+  color2: "rgba(176, 201, 94, 1)" # Some highlighted items like filters button, search icon
+  color3: "rgba(176, 201, 94, 1)" # Participation stats bars, spinners, modal titles
+  color4: "rgba(37, 58, 1, 1)" # Categories titles in filters, fieldset in filters modal
+  color5: "rgba(26, 108, 104, 1)" # Categories and subcategories frames (odd)
+  color6: "rgba(26, 108, 104, 1)" # Categories and subcategories frames (even)
+  color7: "rgba(26, 108, 104, 1)" # Borders, shadows and options boxes in games
 
-featured_items:
+featured_items: # TODO
   - field: maturity
     options:
-      - value: graduated
+      - value: recommended
         order: 1
-        label: Graduated
+        label: Empfohlen
+  - field: subcategory
+    options:
+      - value: <VALUE 1>
+      - value: <VALUE 2>
 
 footer:
   links:
-    facebook: "https://www.facebook.com/CloudNativeComputingFoundation/"
-    flickr: "https://www.flickr.com/photos/143247548@N03/albums"
-    github: "https://github.com/cncf"
-    homepage: "https://cncf.io"
-    instagram: "https://www.instagram.com/humans.of.cloudnative/"
-    linkedin: "https://www.linkedin.com/company/cloud-native-computing-foundation/"
-    slack: "https://slack.cncf.io/"
-    twitch: "https://www.twitch.tv/cloudnativefdn"
-    twitter: "https://twitter.com/cloudnativefdn"
-    wechat: "https://www.cncf.io/wechat/"
-    youtube: "https://www.youtube.com/c/cloudnativefdn"
-  logo: "https://raw.githubusercontent.com/cncf/artwork/master/other/cncf/horizontal/white/cncf-white.svg"
+    homepage: https://www.bundesverband-green-software.de
+    linkedin: https://www.linkedin.com/company/bundesverband-green-software/
+    # github: <GITHUB_URL>
+  logo: https://www.bundesverband-green-software.de/images/BVGS_Logo.webp
+  text: |
+    Copyright © 2025 Bundesverband Green Software
 
 grid_items_size: large
 
-groups:
-  - name: Some categories
-    categories:
-      - Category 1
-      - Category 2
-  - name: Only category 2
-    categories:
-      - Category 2
+# groups: # TODO
+#   - name: Tools
+#     categories:
+#       - Cloud
 
 header:
-  links:
-    github: "https://github.com/cncf/landscape2"
-  logo: "https://raw.githubusercontent.com/cncf/artwork/master/other/cncf-landscape/horizontal/color/cncf-landscape-horizontal-color.svg"
+  # links:
+  #   github: <GITHUB_URL>
+  logo: https://www.bundesverband-green-software.de/images/BVGS_Logo.webp
+
+images:
+  favicon: https://www.bundesverband-green-software.de/images/BVGS_Icon_32x32.ico
 
 screenshot_width: 1500
