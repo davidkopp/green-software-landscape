@@ -89,6 +89,13 @@ categories:
               summary_tags: sustainability, power monitoring, observability, metrics, ebpf, machine learning
               summary_use_case: Ermöglichung der Überwachung der Leistungsaufnahme von Workloads von Cloud-native Systemen.
               summary_integrations: Kubernetes, Prometheus.
+
+          - item:
+            name: KEIT
+            description: KEIT (Kubernetes Emissions Insights Tool) ergänzt die Energieerfassung mit Kepler um aktuelle CO2-Intensitätswerte und Embodied Carbon-Emissionen.
+            homepage_url: https://github.com/aknostic/keit/
+            repo_url: https://github.com/aknostic/keit/
+            logo: aknostic.png
       
       - name: KI-Modell
         items:
@@ -200,7 +207,7 @@ categories:
             description: Ein leichtgewichtiges Monitoring-Tool zur Messung des Energieverbrauchs von Microservices.
             homepage_url: https://github.com/qaware/microservice-energy-consumption-benchmark/blob/main/tools/limo/README.md
             repo_url: https://github.com/qaware/microservice-energy-consumption-benchmark/blob/main/tools/limo/
-            logo: placeholder.svg
+            logo: placeholder.svg # TODO
       
       - name: Beliebige Software (Modellierung)
         items:
@@ -233,13 +240,13 @@ categories:
             description: Ein Leistungsanalysetool für Linux, das zur Messung des Energieverbrauchs verwendet werden kann.
             homepage_url: https://perf.wiki.kernel.org/index.php/Main_Page
             repo_url: https://web.git.kernel.org/pub/scm/linux/kernel/git/perf/perf-tools-next.git/
-            logo: placeholder.svg
+            logo: placeholder.svg # TODO
           
           - item:
             name: Turbostat
             description: Ein Tool zur Berichterstattung über Prozessorfrequenz und Leerlaufstatistiken.
             homepage_url: https://www.linux.org/docs/man8/turbostat.html
-            logo: placeholder.svg
+            logo: placeholder.svg # TODO
           
           - item:
             name: NVIDIA SMI
@@ -260,7 +267,7 @@ categories:
             description: Ein Tool zur Diagnose von Problemen mit dem Stromverbrauch und dem Energiemanagement.
             homepage_url: https://github.com/fenrus75/powertop
             repo_url: https://github.com/fenrus75/powertop
-            logo: placeholder.svg
+            logo: placeholder.svg # TODO
           
           - item:
             name: Scaphandre
@@ -344,7 +351,7 @@ categories:
             name: DotNet-Counters
             description: Ein Leistungsüberwachungstool für .NET-Anwendungen, das Energieverbrauchsmetriken umfasst.
             homepage_url: https://learn.microsoft.com/en-us/dotnet/core/diagnostics/dotnet-counters
-            logo: placeholder.svg
+            logo: placeholder.svg # TODO
           
           - item:
             name: Coppers
@@ -373,7 +380,7 @@ categories:
             name: txture
             description: Eine Plattform zur Analyse und Optimierung der Cloud-Infrastruktur hinsichtlich Kosten und Nachhaltigkeit.
             homepage_url: https://txture.io/
-            logo: txture.svg
+            logo: txture.png
           
           - item:
             name: OxygenIT
@@ -390,10 +397,17 @@ categories:
       - name: Kubernetes-Optimierung
         items:
           - item:
-            name: Vertical Pod Autoscaler
-            description: A Kubernetes component that automatically adjusts the CPU and memory reservations for pods to optimize resource utilization.
-            homepage_url: https://github.com/kubernetes/autoscaler/tree/master/vertical-pod-autoscaler
-            repo_url: https://github.com/kubernetes/autoscaler/tree/master/vertical-pod-autoscaler
+            name: KEDA
+            description: Ein auf Kubernetes basierender ereignisgesteuerter Autoscaler, der Anwendungen basierend auf Ereignismetriken aus verschiedenen Quellen skalieren kann.
+            homepage_url: https://keda.sh/
+            repo_url: https://github.com/kedacore/keda
+            logo: keda.png
+
+          - item:
+            name: CLEVER
+            description: Container Level Energy-efficient VPA Recommender for Kubernetes
+            homepage_url: https://github.com/sustainable-computing-io/clever
+            repo_url: https://github.com/sustainable-computing-io/clever
             logo: placeholder.svg # TODO
           
           - item:
@@ -403,33 +417,6 @@ categories:
             docs: https://goldilocks.docs.fairwinds.com/
             repo_url: https://github.com/FairwindsOps/goldilocks
             logo: goldilocks.svg
-          
-          - item:
-            name: Horizontal Pod Autoscaler
-            description: A Kubernetes component that automatically scales the number of pods in a deployment based on observed CPU utilization.
-            homepage_url: https://kubernetes.io/docs/tasks/run-application/horizontal-pod-autoscale/
-            logo: placeholder.svg # TODO
-          
-          - item:
-            name: KEDA
-            description: A Kubernetes-based event-driven autoscaler that can scale applications based on event metrics from various sources.
-            homepage_url: https://keda.sh/
-            repo_url: https://github.com/kedacore/keda
-            logo: keda.png
-          
-          - item:
-            name: Knative Pod Autoscaler
-            description: An autoscaler for Knative that scales pods based on request load. Supports scale-to-zero.
-            homepage_url: https://knative.dev/docs/serving/autoscaling/
-            repo_url: https://github.com/knative/serving
-            logo: knative.png
-          
-          - item:
-            name: Cluster Autoscaler
-            description: A Kubernetes component that automatically adjusts the size of the Kubernetes cluster based on resource utilization.
-            homepage_url: https://github.com/kubernetes/autoscaler/tree/master/cluster-autoscaler
-            repo_url: https://github.com/kubernetes/autoscaler/tree/master/cluster-autoscaler
-            logo: placeholder.svg # TODO
           
           - item:
             name: Karpenter
