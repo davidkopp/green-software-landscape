@@ -27,3 +27,12 @@ Serve:
 ```sh
 landscape2 serve --landscape-dir build
 ```
+
+## Add new tool
+
+Add the tool to `data.yml` in the correct category / subcategory.
+Please also provide a logo and place it into the [logos](./logos/) directory.
+
+Possible fields are explained [here](https://github.com/cncf/landscape2/blob/main/docs/config/data.yml).
+
+Note: we use the field `project` not to specify the maturity in the sense of the CNCF, but if the Bundesverband recommends the tool/project. If so, add `project: "recommended"`.

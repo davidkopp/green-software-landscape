@@ -19,6 +19,7 @@ categories:
             repo_url: https://github.com/cloud-carbon-footprint/cloud-carbon-footprint
             blog: https://www.cloudcarbonfootprint.org/blog
             logo: cloudcarbonfootprint.png
+            project: "recommended"
           
           - item:
             name: BoaviztAPI
@@ -27,6 +28,7 @@ categories:
             docs: https://doc.api.boavizta.org/
             repo_url: https://github.com/Boavizta/boaviztapi
             logo: boaviztapi_color.svg
+            project: "recommended"
           
           - item:
             name: climatiq
@@ -41,6 +43,7 @@ categories:
             homepage_url: https://www.green-coding.io/products/cloud-energy/
             repo_url: https://github.com/green-coding-solutions/cloud-energy
             logo: cloud-energy.png
+            project: "recommended"
           
           - item:
             name: OpenTelemetry Java Agent Extension (RETIT)
@@ -61,6 +64,7 @@ categories:
             homepage_url: https://aether.green/
             repo_url: https://github.com/re-cinq/aether
             logo: aether.svg
+            project: "archived"
           
           - item:
             name: Dynatrace Carbon Impact
@@ -84,6 +88,7 @@ categories:
             homepage_url: https://sustainable-computing.io/
             repo_url: https://github.com/sustainable-computing-io/kepler
             logo: kepler.svg
+            project: "recommended"
             extra:
               summary_personas: Developers, SREs, Sustainability Officers, IT Managers
               summary_tags: sustainability, power monitoring, observability, metrics, ebpf, machine learning
@@ -96,6 +101,7 @@ categories:
             homepage_url: https://github.com/aknostic/keit/
             repo_url: https://github.com/aknostic/keit/
             logo: aknostic.png
+            project: "recommended"
       
       - name: KI-Modell
         items:
@@ -106,6 +112,7 @@ categories:
             docs: https://ecologits.ai
             repo_url: https://github.com/genai-impact/ecologits
             logo: ecologits.png
+            project: "recommended"
           
           - item:
             name: Carbontracker
@@ -144,6 +151,7 @@ categories:
             docs: https://github.com/green-coding-solutions/hog/blob/main/README.md#the-power-hog
             repo_url: https://github.com/green-coding-solutions/hog/
             logo: power-hog.png
+            project: "recommended"
       
       - name: Mobile App
         items:
@@ -158,6 +166,9 @@ categories:
             description: Eine Lösung zur Messung und Optimierung der Energieeffizienz und des CO2-Fußabdrucks von mobilen Anwendungen.
             homepage_url: https://greenspector.com/en/greenspector-studio-it-environmental-footprint-websites-applications/
             logo: greenspector.png
+            project: "recommended"
+            second_path:
+              - "Messen / Website"
           
           - item:
             name: PowDroid
@@ -174,6 +185,7 @@ categories:
             homepage_url: https://www.green-coding.io/products/eco-ci/
             repo_url: https://github.com/green-coding-solutions/eco-ci-energy-estimation
             logo: eco-ci.png
+            project: "recommended"
       
       - name: Komponente (Testumgebung)
         items:
@@ -185,6 +197,7 @@ categories:
             blog: https://www.green-coding.io/blog/
             repo_url: https://github.com/green-coding-solutions/green-metrics-tool
             logo: green-metrics-tool.png
+            project: "recommended"
           
           - item:
             name: GreenFrame
@@ -218,6 +231,7 @@ categories:
             docs: https://if.greensoftware.foundation/intro
             repo_url: https://github.com/Green-Software-Foundation/if
             logo: impact-framework.svg
+            project: "recommended"
       
       - name: Unix-System
         items:
@@ -276,6 +290,7 @@ categories:
             docs: https://hubblo-org.github.io/scaphandre-documentation/index.html
             repo_url: https://github.com/hubblo-org/scaphandre
             logo: scaphandre.svg
+            project: "recommended"
           
           - item:
             name: Tracarbon
@@ -293,6 +308,7 @@ categories:
             homepage_url: https://github.com/cnumr/GreenIT-Analysis
             repo_url: https://github.com/cnumr/GreenIT-Analysis
             logo: greenit-analysis.png
+            project: "recommended"
           
           - item:
             name: CO2.js
@@ -300,6 +316,7 @@ categories:
             homepage_url: https://github.com/thegreenwebfoundation/co2.js
             repo_url: https://github.com/thegreenwebfoundation/co2.js
             logo: green-web-foundation.png # TODO
+            project: "recommended"
           
           - item:
             name: Firefox Power Profiler
@@ -402,6 +419,7 @@ categories:
             homepage_url: https://keda.sh/
             repo_url: https://github.com/kedacore/keda
             logo: keda.png
+            project: "recommended"
 
           - item:
             name: CLEVER
@@ -425,6 +443,7 @@ categories:
             docs: https://karpenter.sh/docs/
             repo_url: https://github.com/aws/karpenter
             logo: karpenter.svg
+            project: "recommended"
           
           - item:
             name: kube-green
@@ -432,6 +451,7 @@ categories:
             homepage_url: https://kube-green.dev/
             repo_url: https://github.com/kube-green/kube-green
             logo: kube-green.svg
+            project: "recommended"
           
           - item:
             name: Carbon Aware KEDA Operator
@@ -477,6 +497,7 @@ categories:
             homepage_url: https://carbon-aware-sdk.greensoftware.foundation/
             repo_url: https://github.com/Green-Software-Foundation/carbon-aware-sdk
             logo: carbon-aware-sdk.png
+            project: "recommended"
           
           - item:
             name: grid-intensity-go
@@ -491,6 +512,7 @@ categories:
             homepage_url: https://carbon-aware-computing.com/
             repo_url: https://github.com/bluehands/Carbon-Aware-Computing
             logo: placeholder.svg # TODO
+            project: "recommended"
           
           - item:
             name: Camunda Carbon Reductor
@@ -498,6 +520,7 @@ categories:
             homepage_url: https://github.com/envite-consulting/camunda-carbon-reductor
             repo_url: https://github.com/envite-consulting/camunda-carbon-reductor
             logo: camunda-carbon-reductor.svg
+            project: "recommended"
           
           - item:
             name: Grid-aware Websites
@@ -514,6 +537,7 @@ categories:
             homepage_url: https://github.com/sesalab/aDoctor
             repo_url: https://github.com/sesalab/aDoctor
             logo: placeholder.svg # TODO
+            project: "archived"
           
           - item:
             name: Creedengo
