@@ -36,3 +36,5 @@ Please also provide a logo and place it into the [logos](./logos/) directory.
 Possible fields are explained [here](https://github.com/cncf/landscape2/blob/main/docs/config/data.yml).
 
 Note: we use the field `project` not to specify the maturity in the sense of the CNCF, but if the Bundesverband recommends the tool/project. If so, add `project: "recommended"`.
+
+If the organization behind a project/tool we feature it as part of the category `Featured / Mitglied im Bundesverband Green Software`. Add it to this category and add the attribute `second_path` to be able to add it to other categories as well.

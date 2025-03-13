@@ -27,7 +27,9 @@ featured_items: # TODO
         label: Empfohlen
   - field: subcategory
     options:
-      - value: <VALUE 1>
+      - value: "Mitglied im Bundesverband Green Software"
+        order: 1
+        label: Mitglied im BVGS
       - value: <VALUE 2>
 
 footer:
@@ -40,11 +42,6 @@ footer:
     Copyright © 2025 Bundesverband Green Software
 
 grid_items_size: large
-
-# groups: # TODO
-#   - name: Tools
-#     categories:
-#       - Cloud
 
 header:
   # links:

@@ -7,6 +7,100 @@
 # Reference documentation: https://github.com/cncf/landscape2/blob/main/docs/config/data.yml
 
 categories:
+
+  - name: Featured
+    subcategories:
+      - name: Mitglied im Bundesverband Green Software
+        items:
+          
+          - item:
+            name: Green Metrics Tool
+            description: Das Green Metrics Tool ist ein kostenloses Open-Source-Tool (FOSS) zur Messung des Energie-/CO2-Verbrauchs von containerbasierten Softwareanwendungen.
+            homepage_url: https://www.green-coding.io/products/green-metrics-tool/
+            docs: https://docs.green-coding.io
+            blog: https://www.green-coding.io/blog/
+            repo_url: https://github.com/green-coding-solutions/green-metrics-tool
+            logo: green-metrics-tool.png
+            project: "recommended"
+            second_path:
+              - "Messen / Komponente (Testumgebung)"
+
+          - item:
+            name: Cloud Energy
+            description: Ein Tool, das den Energieverbrauch und die CO2-Emissionen von Cloud-Ressourcen misst und analysiert, um Organisationen bei der Optimierung ihrer Cloud-Infrastruktur zu unterstützen.
+            homepage_url: https://www.green-coding.io/products/cloud-energy/
+            repo_url: https://github.com/green-coding-solutions/cloud-energy
+            logo: cloud-energy.png
+            second_path:
+              - "Messen / Cloud-Anwendung"
+
+          - item:
+            name: Power Hog
+            description: Ein Tool zur Überwachung des Stromverbrauchs von Desktop-Anwendungen.
+            homepage_url: https://www.green-coding.io/products/power-hog/
+            docs: https://github.com/green-coding-solutions/hog/blob/main/README.md#the-power-hog
+            repo_url: https://github.com/green-coding-solutions/hog/
+            logo: power-hog.png
+            project: "recommended"
+            second_path:
+              - "Messen / Desktop-Anwendung"
+
+          - item:
+            name: Eco-CI
+            description: Ein Tool zur Messung und Optimierung des CO2-Fußabdrucks von CI/CD-Pipelines.
+            homepage_url: https://www.green-coding.io/products/eco-ci/
+            repo_url: https://github.com/green-coding-solutions/eco-ci-energy-estimation
+            logo: eco-ci.png
+            project: "recommended"
+            second_path:
+              - "Messen / CI-Pipeline"
+          
+          - item:
+            name: CarbonDB
+            description: Eine Datenbank zur Speicherung und Analyse von CO2-Emissionsdaten aus der IT-Infrastruktur.
+            homepage_url: https://www.green-coding.io/products/carbondb/
+            logo: carbondb.png
+            second_path:
+              - "Datenmanagement / Ressourcenverbräuche"
+          
+          - item:
+            name: Camunda Carbon Reductor
+            description: Ein Tool zur Optimierung von Geschäftsprozessen zur Reduzierung von CO2-Emissionen.
+            homepage_url: https://github.com/envite-consulting/camunda-carbon-reductor
+            repo_url: https://github.com/envite-consulting/camunda-carbon-reductor
+            logo: camunda-carbon-reductor.svg
+            project: "recommended"
+            second_path:
+              - "Optimierung / CO2-Awareness Tools"
+
+          - item:
+            name: oaklean
+            description: Ein Tool zur Analyse und Optimierung der Energieeffizienz von Node.js-Anwendungen.
+            homepage_url: https://www.oaklean.io/
+            repo_url: https://github.com/hitabisgmbh/oaklean
+            logo: oaklean.svg
+            second_path:
+              - "Messen / Code"
+
+          - item:
+            name: Carbon-Aware-Computing.com
+            description: Das Ziel dieses Projekts ist es, Entwicklern unkomplizierte und einfach zu bedienende, sofort einsatzbereite Werkzeuge für Carbon-aware Computing. Es werden ein NuGet-Paket, Powershell-Commandlets und eine Live-Instanz des Carbon Aware SDKs bereitgestellt. Eine Open-Data-CO2-Prognose für Europa wird im JSON-Carbon SDK-kompatiblen Format bereitgestellt.
+            homepage_url: https://carbon-aware-computing.com/
+            repo_url: https://github.com/bluehands/Carbon-Aware-Computing
+            logo: placeholder.svg # TODO
+            project: "recommended"
+            second_path:
+              - "Optimierung / CO2-Awareness Tools"
+
+          - item:
+            name: LIMo
+            description: Ein leichtgewichtiges Monitoring-Tool zur Messung des Energieverbrauchs von Microservices.
+            homepage_url: https://github.com/qaware/microservice-energy-consumption-benchmark/blob/main/tools/limo/README.md
+            repo_url: https://github.com/qaware/microservice-energy-consumption-benchmark/blob/main/tools/limo/
+            logo: placeholder.svg # TODO
+            second_path:
+              - "Messen / Komponente (Testumgebung)"
+
   - name: Messen
     subcategories:
       - name: Cloud-Anwendung
@@ -36,14 +130,6 @@ categories:
             homepage_url: https://www.climatiq.io/
             docs: https://www.climatiq.io/docs
             logo: climatiq.png
-          
-          - item:
-            name: Cloud Energy
-            description: Ein Tool, das den Energieverbrauch und die CO2-Emissionen von Cloud-Ressourcen misst und analysiert, um Organisationen bei der Optimierung ihrer Cloud-Infrastruktur zu unterstützen.
-            homepage_url: https://www.green-coding.io/products/cloud-energy/
-            repo_url: https://github.com/green-coding-solutions/cloud-energy
-            logo: cloud-energy.png
-            project: "recommended"
           
           - item:
             name: OpenTelemetry Java Agent Extension (RETIT)
@@ -143,15 +229,7 @@ categories:
             logo: mlco2impact.png
       
       - name: Desktop-Anwendung
-        items:
-          - item:
-            name: Power Hog
-            description: Ein Tool zur Überwachung des Stromverbrauchs von Desktop-Anwendungen.
-            homepage_url: https://www.green-coding.io/products/power-hog/
-            docs: https://github.com/green-coding-solutions/hog/blob/main/README.md#the-power-hog
-            repo_url: https://github.com/green-coding-solutions/hog/
-            logo: power-hog.png
-            project: "recommended"
+        items: []
       
       - name: Mobile App
         items:
@@ -177,28 +255,12 @@ categories:
             repo_url: https://github.com/powdroid-project/powdroid
             logo: powdroid.png
       
-      - name: CI/CD-Pipeline
-        items:
-          - item:
-            name: Eco-CI
-            description: Ein Tool zur Messung und Optimierung des CO2-Fußabdrucks von CI/CD-Pipelines.
-            homepage_url: https://www.green-coding.io/products/eco-ci/
-            repo_url: https://github.com/green-coding-solutions/eco-ci-energy-estimation
-            logo: eco-ci.png
-            project: "recommended"
+      - name: CI-Pipeline
+        items: []
       
       - name: Komponente (Testumgebung)
         items:
-          - item:
-            name: Green Metrics Tool
-            description: Das Green Metrics Tool ist ein kostenloses Open-Source-Tool (FOSS) zur Messung des Energie-/CO2-Verbrauchs von containerbasierten Softwareanwendungen.
-            homepage_url: https://www.green-coding.io/products/green-metrics-tool/
-            docs: https://docs.green-coding.io
-            blog: https://www.green-coding.io/blog/
-            repo_url: https://github.com/green-coding-solutions/green-metrics-tool
-            logo: green-metrics-tool.png
-            project: "recommended"
-          
+
           - item:
             name: GreenFrame
             description: Ein Tool zur Messung und Analyse des CO2-Fußabdrucks von Webanwendungen.
@@ -214,13 +276,6 @@ categories:
             homepage_url: https://cardamon.io/
             repo_url: https://github.com/Root-Branch/cardamon
             logo: cardamon.svg
-          
-          - item:
-            name: LIMo
-            description: Ein leichtgewichtiges Monitoring-Tool zur Messung des Energieverbrauchs von Microservices.
-            homepage_url: https://github.com/qaware/microservice-energy-consumption-benchmark/blob/main/tools/limo/README.md
-            repo_url: https://github.com/qaware/microservice-energy-consumption-benchmark/blob/main/tools/limo/
-            logo: placeholder.svg # TODO
       
       - name: Beliebige Software (Modellierung)
         items:
@@ -349,13 +404,6 @@ categories:
             homepage_url: https://codecarbon.io/
             repo_url: https://github.com/mlco2/codecarbon
             logo: codecarbon.jpg
-          
-          - item:
-            name: oaklean
-            description: Ein Tool zur Analyse und Optimierung der Energieeffizienz von Node.js-Anwendungen.
-            homepage_url: https://www.oaklean.io/
-            repo_url: https://github.com/hitabisgmbh/oaklean
-            logo: oaklean.svg
           
           - item:
             name: jPowerMonitor
@@ -507,22 +555,6 @@ categories:
             logo: green-web-foundation.png # TODO
           
           - item:
-            name: Carbon-Aware-Computing.com
-            description: Das Ziel dieses Projekts ist es, Entwicklern unkomplizierte und einfach zu bedienende, sofort einsatzbereite Werkzeuge für Carbon-aware Computing. Es werden ein NuGet-Paket, Powershell-Commandlets und eine Live-Instanz des Carbon Aware SDKs bereitgestellt. Eine Open-Data-CO2-Prognose für Europa wird im JSON-Carbon SDK-kompatiblen Format bereitgestellt.
-            homepage_url: https://carbon-aware-computing.com/
-            repo_url: https://github.com/bluehands/Carbon-Aware-Computing
-            logo: placeholder.svg # TODO
-            project: "recommended"
-          
-          - item:
-            name: Camunda Carbon Reductor
-            description: Ein Tool zur Optimierung von Geschäftsprozessen zur Reduzierung von CO2-Emissionen.
-            homepage_url: https://github.com/envite-consulting/camunda-carbon-reductor
-            repo_url: https://github.com/envite-consulting/camunda-carbon-reductor
-            logo: camunda-carbon-reductor.svg
-            project: "recommended"
-          
-          - item:
             name: Grid-aware Websites
             description: Eine Bibliothek, die Websites kohlenstoffbewusst macht, indem sie sich an die Kohlenstoffintensität des Stromnetzes anpasst.
             homepage_url: https://www.thegreenwebfoundation.org/tools/grid-aware-websites/
@@ -564,12 +596,7 @@ categories:
       
       - name: Ressourcenverbräuche
         items:
-          - item:
-            name: CarbonDB
-            description: Eine Datenbank zur Speicherung und Analyse von CO2-Emissionsdaten aus der IT-Infrastruktur.
-            homepage_url: https://www.green-coding.io/products/carbondb/
-            logo: carbondb.png
-          
+
           - item:
             name: InfluxData Telegraf
             description: Ein plugin-basierter Server-Agent zum Sammeln und Berichten von Metriken, einschließlich Energieverbrauch und CO2-Emissionen.
