@@ -22,9 +22,9 @@ colors:
 featured_items: # TODO
   - field: maturity
     options:
-      - value: recommended
+      - value: proved+tested
         order: 1
-        label: Empfohlen
+        label: BVGS Proved & Tested
   - field: subcategory
     options:
       - value: <VALUE 1>

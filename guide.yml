@@ -20,3 +20,10 @@ categories:
           Das Ziel der Green Software Tool-Landkarte ist es, einen Überblick über das aktuelle Ökosystem zu geben und auch Empfehlungen auszusprechen.
           Sie ist inspiriert von der [CNCF Landscape] (https://landscape.cncf.io/) und verwendet das gleiche Werkzeug, um sie zu erstellen.
           Fehlende Tools können gerne über einen PR einreicht werden, um dessen Aufnahme in die Landschaft zu beantragen.
+
+      - subcategory: "Was bedeutet 'BVGS Proved & Tested'?"
+        content: |
+          Der BVGS-Arbeitskreis "Tools & Messverfahren" hat das Tool erfolgreich im praktischen Einsatz erprobt und getested.
+          Damit werden die Tools hervorgehoben, die unserer Erfahrung nach für einen praktischen Einsatz geeignet sind. Dies heißt jedoch nicht, dass andere Tools automatisch ungeeignet sind.
+          Möglicherweise haben wir das Tool einfach noch nicht getestet.
+          Falls Ihrer Meinung nach ein Tool es verdient hat, hervorgeben zu werden, würden wir uns über eine Nachricht freuen!
