@@ -44,7 +44,15 @@ categories:
             repo_url: https://github.com/green-coding-solutions/cloud-energy
             logo: cloud-energy.png
             project: "proved+tested"
-          
+
+          - item:
+            name: Boavizta Cloud-Scanner
+            description: Boavizta Cloud-Scanner calculates environmental impacts of your cloud compute and storage instances. It combines real time inventory and usage data from your cloud account with Boavizta API to offer a view of your impacts on a given region.
+            homepage_url: https://github.com/Boavizta/cloud-scanner
+            docs: https://boavizta.github.io/cloud-scanner/
+            repo_url: https://github.com/Boavizta/cloud-scanner
+            logo: cloudscanner.svg
+
           - item:
             name: OpenTelemetry Java Agent Extension (RETIT)
             description: An extension for the OpenTelemetry Java Agent that provides energy consumption metrics for Java applications.
@@ -453,7 +461,14 @@ categories:
             repo_url: https://github.com/kube-green/kube-green
             logo: kube-green.svg
             project: "proved+tested"
-          
+
+          - item:
+            name: DailyClean
+            description: Shutting down pods by cronjob.
+            homepage_url: https://github.com/AxaFrance/dailyclean
+            repo_url: https://github.com/AxaFrance/dailyclean
+            logo: placeholder.svg # TODO
+
           - item:
             name: Carbon Aware KEDA Operator
             description: A Kubernetes operator that scales workloads based on carbon intensity data.
