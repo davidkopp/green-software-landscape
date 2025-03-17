@@ -9,7 +9,7 @@ The tool [landscape2](https://github.com/cncf/landscape2/) by the CNCF is used t
 Prerequisites:
 
 - install [landscape2](https://github.com/cncf/landscape2/blob/main/README.md#installation)
-- provide a GitHub token with `public_repo` scope in the `GITHUB_TOKENS` environment variable
+- provide a GitHub token with `public_repo` scope in the `GITHUB_TOKENS` environment variable (optional, if not given, GitHub related information are missing)
 
 Build:
   
