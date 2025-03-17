@@ -21,6 +21,28 @@ categories:
           Sie ist inspiriert von der [CNCF Landscape](https://landscape.cncf.io/) und verwendet das gleiche Werkzeug, um sie zu erstellen.
           Fehlende Tools können gerne über einen PR einreicht werden, um dessen Aufnahme in die Landschaft zu beantragen.
 
+      - subcategory: "Welchem Schema erfolgt die Kategorisierung?"
+        content: |
+          Die Kategorisierung erfolgt in drei Ebenen:
+
+          **1. Gruppe**
+
+            - Frage: Welchen übergeordneten Zweck erfüllt das Tool?
+            - Beispiele: "Measurement", "Optimization", "Data Management"
+
+          **2. Oberkategorie**
+
+            - Frage: Was ist das Zielobjekt? Was wird gemessen / optimiert?
+            - Beispiele: "Measure Cloud Applications", "Optimize Cloud Applications"
+
+          **3. Unterkategorie**
+
+            - Frage: Wie erfolgt die Messung / Optimierung? (Je nach Oberkategorie ist der Fokus entweder die Datengrundlage oder die Ausführungsart)
+            - Beispiele: "Automated Usage Data Retrieval", "Browser-Extension"
+
+          **Hinweis zum Begriff "Messen":**
+          Wir verwenden in den Kategorien den Begriff "Messen" / "Measure" sehr weit und inkludieren auch Tools, die keine _echte_ Messung vornehmen, sondern _nur_ Schätzungen vornehmen.
+
       - subcategory: "Was bedeutet 'BVGS Proved & Tested'?"
         content: |
           Der BVGS-Arbeitskreis "Tools & Messverfahren" hat das Tool erfolgreich im praktischen Einsatz erprobt und getested.

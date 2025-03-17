@@ -41,10 +41,37 @@ footer:
 
 grid_items_size: large
 
-# groups: # TODO
-#   - name: Tools
-#     categories:
-#       - Cloud
+groups:
+  - name: Measurement
+    categories:
+      - Cloud Application Measurement
+      - AI Model Measurement
+      - Desktop Application Measurement
+      - Mobile App Measurement
+      - CI Pipeline Measurement
+      - Component Measurement (Test Environment)
+      - Arbitrary Software Measurement
+      - Unix System Measurement
+      - Website Measurement
+      - Code Measurement (Development Environment)
+      - Static Code Analysis
+  - name: Optimization
+    categories:
+      - Cloud Optimization (GreenOps)
+      - Kubernetes Optimization
+      - Carbon Aware Applications
+  - name: Data Management
+    categories:
+      - IT Inventory
+      - Usage Data
+
+# Specify order, if relevant
+# categories:
+#   - name: Cloud Application Measurement
+#     subcategories:
+#       - Manual Data Input
+#       - Automated Usage Data Retrieval
+#       - Continuous Data Recording
 
 header:
   # links:
