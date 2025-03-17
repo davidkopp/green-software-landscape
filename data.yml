@@ -356,7 +356,8 @@ categories:
             homepage_url: https://www.oaklean.io/
             repo_url: https://github.com/hitabisgmbh/oaklean
             logo: oaklean.svg
-          
+            project: "proved+tested"
+
           - item:
             name: jPowerMonitor
             description: A tool for monitoring the power consumption of Java applications.
