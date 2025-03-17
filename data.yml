@@ -7,9 +7,9 @@
 # Reference documentation: https://github.com/cncf/landscape2/blob/main/docs/config/data.yml
 
 categories:
-  - name: Messen
+  - name: Measurement
     subcategories:
-      - name: Cloud-Anwendung
+      - name: Cloud Application
         items:
           - item:
             name: Cloud Carbon Footprint
@@ -80,11 +80,11 @@ categories:
             docs: https://www.elastic.co/guide/en/observability/current/universal-profiling.html
             logo: elastic.svg
 
-      - name: Kubernetes-Workload
+      - name: Kubernetes Workload
         items:
           - item:
             name: Kepler
-            description: Kepler (Kubernetes-based Efficient Power Level Exporter) verwendet eBPF, um energiebezogene Systemstatistiken zu untersuchen und als Prometheus-Metriken zu exportieren.
+            description: Kepler (Kubernetes-based Efficient Power Level Exporter) uses eBPF to analyse energy-related system statistics and export them as Prometheus metrics.
             homepage_url: https://sustainable-computing.io/
             repo_url: https://github.com/sustainable-computing-io/kepler
             logo: kepler.svg
@@ -92,18 +92,18 @@ categories:
             extra:
               summary_personas: Developers, SREs, Sustainability Officers, IT Managers
               summary_tags: sustainability, power monitoring, observability, metrics, ebpf, machine learning
-              summary_use_case: Ermöglichung der Überwachung der Leistungsaufnahme von Workloads von Cloud-native Systemen.
+              summary_use_case: Enabling monitoring of the power consumption of workloads of cloud-native systems.
               summary_integrations: Kubernetes, Prometheus.
 
           - item:
             name: KEIT
-            description: KEIT (Kubernetes Emissions Insights Tool) ergänzt die Energieerfassung mit Kepler um aktuelle CO2-Intensitätswerte und Embodied Carbon-Emissionen.
+            description: KEIT (Kubernetes Emissions Insights Tool) supplements the energy recording with Kepler with current CO2 intensity values and embodied carbon emissions.
             homepage_url: https://github.com/aknostic/keit/
             repo_url: https://github.com/aknostic/keit/
             logo: aknostic.png
             project: "recommended"
       
-      - name: KI-Modell
+      - name: AI Model
         items:
           - item:
             name: EcoLogits
@@ -142,7 +142,7 @@ categories:
             repo_url: https://github.com/mlco2/impact
             logo: mlco2impact.png
       
-      - name: Desktop-Anwendung
+      - name: Desktop Application
         items:
           - item:
             name: Power Hog
@@ -177,17 +177,17 @@ categories:
             repo_url: https://github.com/powdroid-project/powdroid
             logo: powdroid.png
       
-      - name: CI/CD-Pipeline
+      - name: CI Pipeline
         items:
           - item:
-            name: Eco-CI
-            description: A tool for measuring and optimizing the carbon footprint of CI/CD pipelines.
+            name: Eco CI
+            description: A tool for measuring and optimizing the carbon footprint of CI pipelines.
             homepage_url: https://www.green-coding.io/products/eco-ci/
             repo_url: https://github.com/green-coding-solutions/eco-ci-energy-estimation
             logo: eco-ci.png
             project: "recommended"
       
-      - name: Komponente (Testumgebung)
+      - name: Component (Test Environment)
         items:
           - item:
             name: Green Metrics Tool
@@ -222,7 +222,7 @@ categories:
             repo_url: https://github.com/qaware/microservice-energy-consumption-benchmark/blob/main/tools/limo/
             logo: placeholder.svg # TODO
       
-      - name: Beliebige Software (Modellierung)
+      - name: Arbitrary Software (Modeling)
         items:
           - item:
             name: Impact Framework
@@ -233,7 +233,7 @@ categories:
             logo: impact-framework.svg
             project: "recommended"
       
-      - name: Unix-System
+      - name: Unix System
         items:
           - item:
             name: PyRAPL
@@ -333,7 +333,7 @@ categories:
             docs: https://developer.apple.com/library/archive/documentation/NetworkingInternetWeb/Conceptual/Web_Inspector_Tutorial/Introduction/Introduction.html
             logo: safari.svg
       
-      - name: Code (Entwicklungsumgebung)
+      - name: Code (Development Environment)
         items:
           - item:
             name: JoularJX
@@ -377,9 +377,9 @@ categories:
             repo_url: https://github.com/ThijsRay/coppers
             logo: coppers.svg
 
-  - name: Optimierung
+  - name: Optimization
     subcategories:
-      - name: Cloud-Optimierung (GreenOps)
+      - name: Cloud Optimization (GreenOps)
         items:
           - item:
             name: IBM Turbonomic
@@ -411,11 +411,11 @@ categories:
             homepage_url: https://www.cycloid.io/
             logo: cycloid.png
       
-      - name: Kubernetes-Optimierung
+      - name: Kubernetes Optimization
         items:
           - item:
             name: KEDA
-            description: Ein auf Kubernetes basierender ereignisgesteuerter Autoscaler, der Anwendungen basierend auf Ereignismetriken aus verschiedenen Quellen skalieren kann.
+            description: A Kubernetes-based event-driven autoscaler that can scale applications based on event metrics from various sources.
             homepage_url: https://keda.sh/
             repo_url: https://github.com/kedacore/keda
             logo: keda.png
@@ -460,7 +460,7 @@ categories:
             repo_url: https://github.com/Azure/carbon-aware-keda-operator
             logo: placeholder.svg # TODO
       
-      - name: CO2-Awareness API-Dienste
+      - name: CO2 Awareness API Services
         items:
           - item:
             name: Electricity Maps
@@ -489,7 +489,7 @@ categories:
             docs: https://carbon-intensity.github.io/api-definitions/
             logo: placeholder.svg # TODO
       
-      - name: CO2-Awareness Tools
+      - name: CO2 Awareness Tools
         items:
           - item:
             name: Carbon Aware SDK
@@ -552,9 +552,9 @@ categories:
             homepage_url: https://learn.castsoftware.com/cut-co2-with-greener-software
             logo: cast.jpg
 
-  - name: Datenmanagement
+  - name: Data Management
     subcategories:
-      - name: IT-Inventar
+      - name: IT Inventory
         items:
           - item:
             name: fruggr
@@ -562,7 +562,7 @@ categories:
             homepage_url: https://www.fruggr.io/
             logo: fruggr.svg
       
-      - name: Ressourcenverbräuche
+      - name: Usage Data
         items:
           - item:
             name: CarbonDB
