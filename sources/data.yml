@@ -149,7 +149,21 @@ categories:
             homepage_url: https://mlco2.github.io/impact/
             repo_url: https://github.com/mlco2/impact
             logo: mlco2impact.png
-      
+
+          - item:
+            name: AI Power Meter
+            description: A tool for estimating the carbon footprint of machine learning computations.
+            homepage_url: https://github.com/GreenAI-Uppa/AIPowerMeter
+            repo_url: https://github.com/GreenAI-Uppa/AIPowerMeter
+            docs: https://greenai-uppa.github.io/AIPowerMeter/
+            logo: placeholder.svg
+
+          - item:
+            name: Green Coding AI
+            description: This project aims to show how much asking an GPT uses in resources.
+            homepage_url: https://green-coding.ai
+            logo: green-coding.webp
+
       - name: Desktop Application
         items:
           - item:
@@ -184,6 +198,13 @@ categories:
             homepage_url: https://www.noureddine.org/research/powdroid
             repo_url: https://github.com/powdroid-project/powdroid
             logo: powdroid.png
+
+          - item:
+            name: Android Runner
+            description: Android Runner (AR) is a tool for automatically executing measurement-based experiments on native and web apps running on Android devices.
+            homepage_url: https://github.com/S2-group/android-runner/
+            repo_url: https://github.com/S2-group/android-runner/
+            logo: s2.png
       
       - name: CI Pipeline
         items:
@@ -243,13 +264,7 @@ categories:
       
       - name: Unix System
         items:
-          - item:
-            name: PyRAPL
-            description: A Python toolkit for measuring the energy consumption of Python code using Intel's Running Average Power Limit (RAPL).
-            homepage_url: https://github.com/powerapi-ng/pyRAPL
-            repo_url: https://github.com/powerapi-ng/pyRAPL
-            logo: pyrapl.png
-          
+        
           - item:
             name: Powerstat
             description: A tool for measuring the power consumption of a system over time.
@@ -307,6 +322,13 @@ categories:
             docs: https://fvaleye.github.io/tracarbon/documentation/
             repo_url: https://github.com/fvaleye/tracarbon
             logo: tracarbon.png
+
+          - item:
+            name: CPU Energy Meter
+            description: CPU Energy Meter is a Linux tool that allows to monitor power consumption of Intel CPUs at fine time granularities (few tens of milliseconds).
+            homepage_url: https://github.com/sosy-lab/cpu-energy-meter
+            repo_url: https://github.com/sosy-lab/cpu-energy-meter
+            logo: sosy-lab.png
       
       - name: Website
         items:
@@ -343,6 +365,14 @@ categories:
       
       - name: Code (Development Environment)
         items:
+
+          - item:
+            name: PyRAPL
+            description: A Python toolkit for measuring the energy consumption of Python code using Intel's Running Average Power Limit (RAPL).
+            homepage_url: https://github.com/powerapi-ng/pyRAPL
+            repo_url: https://github.com/powerapi-ng/pyRAPL
+            logo: pyrapl.png
+
           - item:
             name: JoularJX
             description: A tool for measuring the energy consumption of Java applications at the method level.
