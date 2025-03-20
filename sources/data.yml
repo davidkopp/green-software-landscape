@@ -141,7 +141,7 @@ categories:
             description: A tool for estimating the carbon footprint of computational tasks, including AI model training and inference.
             homepage_url: https://www.green-algorithms.org/
             repo_url: https://github.com/GreenAlgorithms/green-algorithms-tool
-            logo: placeholder.svg # TODO
+            logo: warming-stripes.png # TODO
           
           - item:
             name: ML CO2 Impact
@@ -407,7 +407,7 @@ categories:
             name: DotNet-Counters
             description: A performance monitoring tool for .NET applications that includes energy consumption metrics.
             homepage_url: https://learn.microsoft.com/en-us/dotnet/core/diagnostics/dotnet-counters
-            logo: placeholder.svg # TODO
+            logo: dotnet.svg
           
           - item:
             name: Coppers
@@ -424,7 +424,7 @@ categories:
             name: IBM Turbonomic
             description: A platform for optimizing cloud resources to reduce costs and carbon emissions.
             homepage_url: https://www.ibm.com/products/turbonomic
-            logo: placeholder.svg # TODO
+            logo: IBM-Turbonomics.png
           
           - item:
             name: Greenpixie GPX Data
@@ -497,14 +497,14 @@ categories:
             description: Shutting down pods by cronjob.
             homepage_url: https://github.com/AxaFrance/dailyclean
             repo_url: https://github.com/AxaFrance/dailyclean
-            logo: placeholder.svg # TODO
+            logo: axa.jpg
 
           - item:
             name: Carbon Aware KEDA Operator
             description: A Kubernetes operator that scales workloads based on carbon intensity data.
             homepage_url: https://github.com/Azure/carbon-aware-keda-operator
             repo_url: https://github.com/Azure/carbon-aware-keda-operator
-            logo: placeholder.svg # TODO
+            logo: azure.svg # TODO
       
       - name: CO2 Awareness API Services
         items:
@@ -557,7 +557,7 @@ categories:
             description: A platform for carbon-aware computing that uses data from Energy-Charts.
             homepage_url: https://carbon-aware-computing.com/
             repo_url: https://github.com/bluehands/Carbon-Aware-Computing
-            logo: placeholder.svg # TODO
+            logo: time_shifting.png
             project: "proved+tested"
           
           - item:
