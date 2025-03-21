@@ -24,7 +24,7 @@ categories:
             homepage_url: https://github.com/Boavizta/boaviztapi
             docs: https://doc.api.boavizta.org/
             repo_url: https://github.com/Boavizta/boaviztapi
-            logo: boaviztapi_color.svg
+            logo: boaviztapi.svg
             project: "proved+tested"
 
           - item:
@@ -77,8 +77,14 @@ categories:
             description: An extension for the OpenTelemetry Java Agent that provides energy consumption metrics for Java applications.
             homepage_url: https://github.com/RETIT/opentelemetry-javaagent-extension
             repo_url: https://github.com/RETIT/opentelemetry-javaagent-extension
-            logo: retit.png # TODO
-
+            logo: organization/retit.png
+          
+          - item:
+            name: ResilioDB
+            description: A database solution designed to optimize energy efficiency and carbon footprint of data storage and processing.
+            homepage_url: https://resilio-solutions.com/en
+            logo: resilio.svg
+          
           - item:
             name: aether
             description: A tool for measuring and analyzing the carbon footprint of cloud applications and infrastructure.
@@ -92,7 +98,7 @@ categories:
             description: A solution that provides insights into the carbon footprint of cloud applications and infrastructure, helping organizations reduce their environmental impact.
             homepage_url: https://www.dynatrace.com/hub/detail/carbon-impact/
             docs: https://docs.dynatrace.com/docs/observe/business-analytics/apps/cost-and-carbon-optimization
-            logo: dynatrace.svg
+            logo: organization/dynatrace.svg
           
           - item:
             name: Elastic Universal Profiling
@@ -119,7 +125,7 @@ categories:
             description: KEIT (Kubernetes Emissions Insights Tool) supplements the energy recording with Kepler with current CO2 intensity values and embodied carbon emissions.
             homepage_url: https://github.com/aknostic/keit/
             repo_url: https://github.com/aknostic/keit/
-            logo: aknostic.png
+            logo: unofficial/KEIT.svg
             project: "proved+tested"
 
   - name: AI Model Measurement
@@ -136,13 +142,13 @@ categories:
             repo_url: https://github.com/genai-impact/ecologits
             logo: ecologits.png
             project: "proved+tested"
-          
+                    
           - item:
             name: Green Algorithms Calculator
             description: A tool for estimating the carbon footprint of computational tasks, including AI model training and inference.
             homepage_url: https://www.green-algorithms.org/
             repo_url: https://github.com/GreenAlgorithms/green-algorithms-tool
-            logo: placeholder.svg # TODO
+            logo: unofficial/Green_Algorithms_Calculator.svg
           
           - item:
             name: ML CO2 Impact
@@ -151,15 +157,23 @@ categories:
             repo_url: https://github.com/mlco2/impact
             logo: mlco2impact.png
 
-      - name: Measure Training Phase
+      - name: Measure AI Training
         items:
+        
+          - item:
+            name: AI Power Meter
+            description: A tool for estimating the carbon footprint of machine learning computations.
+            homepage_url: https://github.com/GreenAI-Uppa/AIPowerMeter
+            repo_url: https://github.com/GreenAI-Uppa/AIPowerMeter
+            docs: https://greenai-uppa.github.io/AIPowerMeter/
+            logo: unofficial/AI_Power_Meter.svg
 
           - item:
             name: Carbontracker
             description: A tool for tracking and predicting the energy consumption and carbon footprint of training deep learning models.
             homepage_url: https://carbontracker.info/
             repo_url: https://github.com/lfwa/carbontracker
-            logo: placeholder.svg # TODO
+            logo: unofficial/carbontracker.svg
           
           - item:
             name: ZEUS
@@ -167,6 +181,15 @@ categories:
             homepage_url: https://ml.energy/zeus/
             repo_url: https://github.com/ml-energy/zeus
             logo: zeus.svg
+
+      - name: Measure AI Inference
+        items:
+
+          - item:
+            name: Green Coding AI
+            description: This project aims to show how much asking an GPT uses in resources.
+            homepage_url: https://green-coding.ai
+            logo: organization/green-coding.webp
 
   - name: Desktop Application Measurement
     subcategories:
@@ -194,13 +217,20 @@ categories:
             description: A tool for profiling the power consumption of Android applications.
             homepage_url: https://developer.android.com/studio/profile/energy-profiler
             logo: android.svg
-          
+
           - item:
             name: PowDroid
             description: An open-source tool for measuring the power consumption of Android applications.
             homepage_url: https://www.noureddine.org/research/powdroid
             repo_url: https://github.com/powdroid-project/powdroid
             logo: powdroid.png
+
+          - item:
+            name: Android Runner
+            description: Android Runner (AR) is a tool for automatically executing measurement-based experiments on native and web apps running on Android devices.
+            homepage_url: https://github.com/S2-group/android-runner/
+            repo_url: https://github.com/S2-group/android-runner/
+            logo: unofficial/Android_Runner.svg
 
       - name: Measure on test bench
         items:
@@ -216,7 +246,7 @@ categories:
 
   - name: CI Pipeline Measurement
     subcategories:
-
+      
       - name: Estimation using ML model
         items:
 
@@ -268,7 +298,7 @@ categories:
             description: A lightweight monitoring tool for measuring the energy consumption of microservices.
             homepage_url: https://github.com/qaware/microservice-energy-consumption-benchmark/blob/main/tools/limo/README.md
             repo_url: https://github.com/qaware/microservice-energy-consumption-benchmark/blob/main/tools/limo/
-            logo: placeholder.svg # TODO
+            logo: unofficial/LIMo.svg
       
   - name: Arbitrary Software Measurement
     subcategories:
@@ -289,15 +319,8 @@ categories:
     subcategories:
 
       - name: RAPL-based Measurement
-        items:
-
-          - item:
-            name: PyRAPL
-            description: A Python toolkit for measuring the energy consumption of Python code using Intel's Running Average Power Limit (RAPL).
-            homepage_url: https://github.com/powerapi-ng/pyRAPL
-            repo_url: https://github.com/powerapi-ng/pyRAPL
-            logo: pyrapl.png
-          
+        items:   
+        
           - item:
             name: Powerstat
             description: A tool for measuring the power consumption of a system over time.
@@ -310,27 +333,27 @@ categories:
             description: A performance analysis tool for Linux that can be used to measure energy consumption.
             homepage_url: https://perf.wiki.kernel.org/index.php/Main_Page
             repo_url: https://web.git.kernel.org/pub/scm/linux/kernel/git/perf/perf-tools-next.git/
-            logo: placeholder.svg # TODO
+            logo: unofficial/perf.svg
           
           - item:
             name: Turbostat
             description: A tool for reporting processor frequency and idle statistics.
             homepage_url: https://www.linux.org/docs/man8/turbostat.html
-            logo: placeholder.svg # TODO
-
+            logo: unofficial/turbostat.svg
+          
           - item:
             name: Intel PCM
             description: A tool for monitoring performance and energy metrics for Intel processors.
             homepage_url: https://www.intel.com/content/www/us/en/developer/articles/tool/performance-counter-monitor.html?wapkw=pcm
             repo_url: https://github.com/intel/pcm
-            logo: intel.png
+            logo: organization/intel.png
           
           - item:
             name: PowerTOP
             description: A tool for diagnosing issues with power consumption and power management.
             homepage_url: https://github.com/fenrus75/powertop
             repo_url: https://github.com/fenrus75/powertop
-            logo: placeholder.svg # TODO
+            logo: unofficial/PowerTOP.svg
           
           - item:
             name: Scaphandre
@@ -349,6 +372,13 @@ categories:
             repo_url: https://github.com/fvaleye/tracarbon
             logo: tracarbon.png
 
+          - item:
+            name: CPU Energy Meter
+            description: CPU Energy Meter is a Linux tool that allows to monitor power consumption of Intel CPUs at fine time granularities (few tens of milliseconds).
+            homepage_url: https://github.com/sosy-lab/cpu-energy-meter
+            repo_url: https://github.com/sosy-lab/cpu-energy-meter
+            logo: unofficial/CPU_Energy_Meter.svg
+
       - name: NVSMI-based Measurement
         items:
 
@@ -357,12 +387,13 @@ categories:
             description: A tool for monitoring and managing NVIDIA GPUs, including power consumption.
             homepage_url: https://developer.nvidia.com/nvidia-system-management-interface
             docs: https://docs.nvidia.com/deploy/nvidia-smi/index.html
-            logo: nvidia.png
+            logo: organization/nvidia.png
 
   - name: Website Measurement
     subcategories:
 
       - name: Browser-Extension
+      
         items:
           - item:
             name: GreenIT-Analysis
@@ -380,7 +411,7 @@ categories:
             description: A JavaScript library for estimating the carbon emissions of websites and web applications.
             homepage_url: https://github.com/thegreenwebfoundation/co2.js
             repo_url: https://github.com/thegreenwebfoundation/co2.js
-            logo: green-web-foundation.png # TODO
+            logo: unofficial/CO2.js.svg
             project: "proved+tested"
 
       - name: Browser-integrated Tool
@@ -406,6 +437,7 @@ categories:
 
       - name: Java
         items:
+
           - item:
             name: JoularJX
             description: A tool for measuring the energy consumption of Java applications at the method level.
@@ -419,10 +451,17 @@ categories:
             description: A tool for monitoring the power consumption of Java applications.
             homepage_url: https://github.com/msg-systems/jpowermonitor
             repo_url: https://github.com/msg-systems/jpowermonitor
-            logo: msg-banking.png # TODO
+            logo: unofficial/jPowerMonitor.svg
           
       - name: Python
         items:
+
+          - item:
+            name: PyRAPL
+            description: A Python toolkit for measuring the energy consumption of Python code using Intel's Running Average Power Limit (RAPL).
+            homepage_url: https://github.com/powerapi-ng/pyRAPL
+            repo_url: https://github.com/powerapi-ng/pyRAPL
+            logo: pyrapl.png
 
           - item:
             name: CodeCarbon
@@ -451,7 +490,7 @@ categories:
             name: DotNet-Counters
             description: A performance monitoring tool for .NET applications that includes energy consumption metrics.
             homepage_url: https://learn.microsoft.com/en-us/dotnet/core/diagnostics/dotnet-counters
-            logo: placeholder.svg # TODO
+            logo: dotnet.svg
           
       - name: RUST
         items:
@@ -474,7 +513,7 @@ categories:
             description: A tool for detecting energy code smells in Android applications.
             homepage_url: https://github.com/sesalab/aDoctor
             repo_url: https://github.com/sesalab/aDoctor
-            logo: placeholder.svg # TODO
+            logo: unofficial/aDoctor.svg
             project: "archived"
           
       - name: Multiple Languages
@@ -506,7 +545,7 @@ categories:
             name: IBM Turbonomic
             description: A platform for optimizing cloud resources to reduce costs and carbon emissions.
             homepage_url: https://www.ibm.com/products/turbonomic
-            logo: placeholder.svg # TODO
+            logo: IBM-Turbonomics.png
           
           - item:
             name: Greenpixie GPX Data
@@ -551,7 +590,7 @@ categories:
             description: Container Level Energy-efficient VPA Recommender for Kubernetes
             homepage_url: https://github.com/sustainable-computing-io/clever
             repo_url: https://github.com/sustainable-computing-io/clever
-            logo: placeholder.svg # TODO
+            logo: unofficial/CLEVER.svg
           
           - item:
             name: Goldilocks
@@ -586,7 +625,7 @@ categories:
             description: Shutting down pods by cronjob.
             homepage_url: https://github.com/AxaFrance/dailyclean
             repo_url: https://github.com/AxaFrance/dailyclean
-            logo: placeholder.svg # TODO
+            logo: unofficial/DailyClean.svg
 
       - name: CO2 Awareness
         items:
@@ -596,9 +635,7 @@ categories:
             description: A Kubernetes operator that scales workloads based on carbon intensity data.
             homepage_url: https://github.com/Azure/carbon-aware-keda-operator
             repo_url: https://github.com/Azure/carbon-aware-keda-operator
-            logo: placeholder.svg # TODO
-            second_path:
-              - "Make Software Carbon Aware / Carbon-Aware Tools"
+            logo: unofficial/Carbon_Aware_KEDA_Operator.svg
 
   - name: Carbon Aware Applications
     subcategories:
@@ -631,7 +668,7 @@ categories:
             description: An API that provides carbon intensity data for the UK electricity grid.
             homepage_url: https://carbonintensity.org.uk/
             docs: https://carbon-intensity.github.io/api-definitions/
-            logo: placeholder.svg # TODO
+            logo: unofficial/Carbon-Intensity_UK.svg
       
       - name: Carbon-Aware Tools
         items:
@@ -649,14 +686,14 @@ categories:
             description: A command-line tool, go library and Prometheus exporter for accessing carbon intensity data from various sources.
             homepage_url: https://github.com/thegreenwebfoundation/grid-intensity-go
             repo_url: https://github.com/thegreenwebfoundation/grid-intensity-go
-            logo: green-web-foundation.png # TODO
+            logo: unofficial/grid-intensity-go.svg
           
           - item:
             name: Carbon-Aware-Computing.com
             description: A platform for carbon-aware computing that uses data from Energy-Charts.
             homepage_url: https://carbon-aware-computing.com/
             repo_url: https://github.com/bluehands/Carbon-Aware-Computing
-            logo: placeholder.svg # TODO
+            logo: unofficial/Carbon-Aware-Computing.com.svg
             project: "proved+tested"
           
           - item:
@@ -672,7 +709,7 @@ categories:
             description: A library for making websites carbon-aware by adapting to the carbon intensity of the electricity grid.
             homepage_url: https://www.thegreenwebfoundation.org/tools/grid-aware-websites/
             repo_url: https://github.com/thegreenwebfoundation/grid-aware-websites
-            logo: green-web-foundation.png # TODO
+            logo: unofficial/Grid-aware_Websites.svg
 
 ###################
 # Data Management #
