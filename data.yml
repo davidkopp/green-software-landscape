@@ -206,10 +206,17 @@ categories:
             logo: power-hog.png
             project: "proved+tested"
 
+          - item:
+            name: Watt Wiser
+            description: A desktop software energy consumption estimation tool built as part of the [Watt-Wise Game Jam](https://wattwise.games/). Usable for simple energy estimation and benchmarking on Linux, macOS, and Windows.
+            homepage_url: https://github.com/wattwisegames/watt-wiser
+            repo_url: https://github.com/wattwisegames/watt-wiser
+            logo: watt-wiser.svg
+
   - name: Mobile App Measurement
     subcategories:
 
-      - name: Measure on own smartphone
+      - name: Measure on own smartphone     
         items:
 
           - item:
@@ -242,7 +249,7 @@ categories:
             logo: greenspector.png
             project: "proved+tested"
             second_path:
-              - "Messen / Website"
+              - "Website Measurement / Isolated Energy Measurement"
 
   - name: CI Pipeline Measurement
     subcategories:
@@ -273,6 +280,8 @@ categories:
             repo_url: https://github.com/green-coding-solutions/green-metrics-tool
             logo: green-metrics-tool.png
             project: "proved+tested"
+            second_path:
+              - "Website Measurement / Isolated Energy Measurement"
 
       - name: Formula-based estimation
         items:
@@ -285,14 +294,18 @@ categories:
             docs: https://docs.greenframe.io/
             repo_url: https://github.com/marmelab/greenframe-cli
             logo: greenframe.svg
-          
+            second_path:
+              - "Website Measurement / Isolated Energy Measurement"
+
           - item:
             name: Cardamon
             description: A tool for measuring the energy consumption and carbon footprint of software applications.
             homepage_url: https://cardamon.io/
             repo_url: https://github.com/Root-Branch/cardamon
             logo: cardamon.svg
-          
+            second_path:
+              - "Website Measurement / Isolated Energy Measurement"
+
           - item:
             name: LIMo
             description: A lightweight monitoring tool for measuring the energy consumption of microservices.
@@ -321,6 +334,22 @@ categories:
       - name: RAPL-based Measurement
         items:   
         
+          - item:
+            name: Scaphandre
+            description: A monitoring agent dedicated to energy consumption metrics.
+            homepage_url: https://github.com/hubblo-org/scaphandre
+            docs: https://hubblo-org.github.io/scaphandre-documentation/index.html
+            repo_url: https://github.com/hubblo-org/scaphandre
+            logo: scaphandre.svg
+            project: "proved+tested"
+
+          - item:
+            name: powerletrics
+            description: PowerLetrics is an open-source framework designed to monitor and analyze power consumption metrics at the process level on Linux. Similar to how top displays memory or CPU time, PowerLetrics provides the "Energy Footprint" of each process in real-time.
+            homepage_url: https://github.com/green-kernel/powerletrics
+            repo_url: https://github.com/green-kernel/powerletrics
+            logo: powerletrics.png
+
           - item:
             name: Powerstat
             description: A tool for measuring the power consumption of a system over time.
@@ -354,15 +383,6 @@ categories:
             homepage_url: https://github.com/fenrus75/powertop
             repo_url: https://github.com/fenrus75/powertop
             logo: unofficial/PowerTOP.svg
-          
-          - item:
-            name: Scaphandre
-            description: A monitoring agent dedicated to energy consumption metrics.
-            homepage_url: https://github.com/hubblo-org/scaphandre
-            docs: https://hubblo-org.github.io/scaphandre-documentation/index.html
-            repo_url: https://github.com/hubblo-org/scaphandre
-            logo: scaphandre.svg
-            project: "proved+tested"
           
           - item:
             name: Tracarbon
@@ -431,6 +451,9 @@ categories:
             homepage_url: https://developer.apple.com/safari/tools/
             docs: https://developer.apple.com/library/archive/documentation/NetworkingInternetWeb/Conceptual/Web_Inspector_Tutorial/Introduction/Introduction.html
             logo: safari.svg
+
+      - name: Isolated Energy Measurement
+        items: []
 
   - name: Code Measurement (Development Environment)
     subcategories:
