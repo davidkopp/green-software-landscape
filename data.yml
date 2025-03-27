@@ -234,7 +234,9 @@ categories:
             repo_url: https://github.com/green-coding-solutions/green-metrics-tool
             logo: green-metrics-tool.png
             project: "proved+tested"
-          
+            second_path:
+              - "Measurement / Website"
+
           - item:
             name: GreenFrame
             description: A tool for measuring and analyzing the carbon footprint of web applications.
@@ -243,14 +245,18 @@ categories:
             docs: https://docs.greenframe.io/
             repo_url: https://github.com/marmelab/greenframe-cli
             logo: greenframe.svg
-          
+            second_path:
+              - "Measurement / Website"
+
           - item:
             name: Cardamon
             description: A tool for measuring the energy consumption and carbon footprint of software applications.
             homepage_url: https://cardamon.io/
             repo_url: https://github.com/Root-Branch/cardamon
             logo: cardamon.svg
-          
+            second_path:
+              - "Measurement / Website"
+
           - item:
             name: LIMo
             description: A lightweight monitoring tool for measuring the energy consumption of microservices.
