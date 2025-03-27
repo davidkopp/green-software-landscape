@@ -493,7 +493,7 @@ categories:
             repo_url: https://github.com/mlco2/codecarbon
             logo: codecarbon.jpg
             second_path:
-              - "Measure AI Models / Measure Training"
+              - "AI Model Measurement / Measure AI Training"
 
       - name: Node.js
         items:
