@@ -174,6 +174,13 @@ categories:
             repo_url: https://github.com/green-coding-solutions/hog/
             logo: power-hog.png
             project: "proved+tested"
+
+          - item:
+            name: Watt Wiser
+            description: A desktop software energy consumption estimation tool built as part of the [Watt-Wise Game Jam](https://wattwise.games/). Usable for simple energy estimation and benchmarking on Linux, macOS, and Windows.
+            homepage_url: https://github.com/wattwisegames/watt-wiser
+            repo_url: https://github.com/wattwisegames/watt-wiser
+            logo: watt-wiser.svg
       
       - name: Mobile App
         items:
