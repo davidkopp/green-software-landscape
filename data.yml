@@ -271,7 +271,23 @@ categories:
       
       - name: Unix System
         items:
-        
+          
+          - item:
+            name: Scaphandre
+            description: A monitoring agent dedicated to energy consumption metrics.
+            homepage_url: https://github.com/hubblo-org/scaphandre
+            docs: https://hubblo-org.github.io/scaphandre-documentation/index.html
+            repo_url: https://github.com/hubblo-org/scaphandre
+            logo: scaphandre.svg
+            project: "proved+tested"
+
+          - item:
+            name: powerletrics
+            description: PowerLetrics is an open-source framework designed to monitor and analyze power consumption metrics at the process level on Linux. Similar to how top displays memory or CPU time, PowerLetrics provides the "Energy Footprint" of each process in real-time.
+            homepage_url: https://github.com/green-kernel/powerletrics
+            repo_url: https://github.com/green-kernel/powerletrics
+            logo: powerletrics.png
+
           - item:
             name: Powerstat
             description: A tool for measuring the power consumption of a system over time.
@@ -314,15 +330,6 @@ categories:
             logo: unofficial/PowerTOP.svg
           
           - item:
-            name: Scaphandre
-            description: A monitoring agent dedicated to energy consumption metrics.
-            homepage_url: https://github.com/hubblo-org/scaphandre
-            docs: https://hubblo-org.github.io/scaphandre-documentation/index.html
-            repo_url: https://github.com/hubblo-org/scaphandre
-            logo: scaphandre.svg
-            project: "proved+tested"
-          
-          - item:
             name: Tracarbon
             description: A tool for tracking the carbon footprint of software applications.
             homepage_url: https://github.com/fvaleye/tracarbon
@@ -336,7 +343,7 @@ categories:
             homepage_url: https://github.com/sosy-lab/cpu-energy-meter
             repo_url: https://github.com/sosy-lab/cpu-energy-meter
             logo: unofficial/CPU_Energy_Meter.svg
-      
+
       - name: Website
         items:
           - item:
